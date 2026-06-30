@@ -1,0 +1,8 @@
+node_modules
+dist
+storybook-static
+.next
+*.log
+.DS_Store
+
+*storybook.log
