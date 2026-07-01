@@ -1,0 +1,9 @@
+{
+  "projectId": "5051006e-874b-44d7-bd55-0fca21319d8e",
+  "shape": "storybook",
+  "pkg": "my-design-system",
+  "globalName": "MyDesignSystem",
+  "storybookStatic": ".design-sync/sb-reference",
+  "buildCmd": "npm run build",
+  "readmeHeader": ".design-sync/conventions.md"
+}
