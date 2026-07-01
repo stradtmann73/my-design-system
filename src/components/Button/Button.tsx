@@ -6,9 +6,9 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const VARIANT_CLASSES: Record<NonNullable<ButtonProps["variant"]>, string> = {
-  primary: "bg-brand-600 text-white hover:bg-brand-700",
-  secondary: "bg-brand-50 text-brand-700 hover:bg-brand-100",
-  ghost: "bg-transparent text-brand-700 hover:bg-brand-50",
+  primary: "bg-purple-mid text-white hover:bg-purple-deep",
+  secondary: "bg-lavender text-purple-mid hover:bg-purple-light/40",
+  ghost: "bg-transparent text-purple-mid hover:bg-lavender",
 };
 
 const SIZE_CLASSES: Record<NonNullable<ButtonProps["size"]>, string> = {
